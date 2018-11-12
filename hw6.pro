@@ -1,5 +1,8 @@
 % Brayden Berglund
 % HW6
+%start by:
+% ?- solve.
+
 %not implemented is iterating through and starting at different positions, not fully tested
 %:- use_module(library(lists)). for reverse and select
 %:- use_module(library(apply)). for maplist
@@ -28,7 +31,6 @@ move(from,13,to):- member([from,to], [[12,14], [14,12]]).
 move(from,14,to):- member([from,to], [[15,13], [13,15]]).
 
 
-% solve 
 %start with position 1
 solve() :-
 	start([2,3,4,5,6,7,8,9,10,11,12,13,14,15], [1], [])
